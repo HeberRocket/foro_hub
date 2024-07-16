@@ -17,11 +17,15 @@ devuelve códigos de error HTTP adecuados y genera tokens JWT para la autorizaci
 
 ## **Endpoints:**
   - **POST /topicos:** Registra un nuevo tema.
-  - ![Menu](https://github.com/HeberRocket/literalura/blob/main/imgns_literalura/menu.png)
+   ![Menu](https://github.com/HeberRocket/foro_hub/blob/main/imgs/Registrar.png)
   - **GET /topicos:** Lista todos los temas activos con paginación.
+   ![Menu](https://github.com/HeberRocket/foro_hub/blob/main/imgs/listado.png)
   - **PUT /topicos:** Actualiza un tema existente.
+   ![Menu](https://github.com/HeberRocket/foro_hub/blob/main/imgs/actualizar.png)
   - **DELETE /topicos/{id}:** Elimina lógicamente un tema marcándolo como inactivo.
+   ![Menu](https://github.com/HeberRocket/foro_hub/blob/main/imgs/eliminar.png)
   - **GET /topicos/{id}:** Recupera los detalles de un tema específico.
+   ![Menu](https://github.com/HeberRocket/foro_hub/blob/main/imgs/especifico.png)
 
 
 ## Topico
@@ -84,3 +88,7 @@ Gestiona la autenticación de usuarios.
   - **Atributos:** `id`, `titulo`, `mensaje`, `autor`, `nombre`, `activo`.
 - **Tabla `usuarios`:** Almacena los usuarios registrados.
   - **Atributos:** `id`, `email`, `contrasena`.
+   ![Menu](https://github.com/HeberRocket/foro_hub/blob/main/imgs/baseDatos.png)
+
+
+Autor https://www.linkedin.com/in/heber-acevedo/
