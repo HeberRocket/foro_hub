@@ -17,6 +17,7 @@ devuelve códigos de error HTTP adecuados y genera tokens JWT para la autorizaci
 
 ## **Endpoints:**
   - **POST /topicos:** Registra un nuevo tema.
+  - ![Menu](https://github.com/HeberRocket/literalura/blob/main/imgns_literalura/menu.png)
   - **GET /topicos:** Lista todos los temas activos con paginación.
   - **PUT /topicos:** Actualiza un tema existente.
   - **DELETE /topicos/{id}:** Elimina lógicamente un tema marcándolo como inactivo.
